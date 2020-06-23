@@ -1,0 +1,15 @@
+.herosection h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.herosection h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
