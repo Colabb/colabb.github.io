@@ -1,0 +1,48 @@
+/* navbar */
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* hero section */
+
+.hero {
+    justify-content: center;
+    background: rgb(53, 53, 53);
+}
+
+.hero h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: #F1C40F;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.hero p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+/* button */
+
+.btn-primary {
+    background: #F1C40F;
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.btn-primary:hover {
+    background: #383838;
+    border: 0;
+}
