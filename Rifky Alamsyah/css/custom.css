@@ -1,7 +1,7 @@
 /* navbar */
 
 .navbar {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
 
@@ -9,23 +9,23 @@
 
 .hero {
     justify-content: center;
-    background: rgb(53, 53, 53);
+    background: #161616;
 }
 
 .hero h4 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 800;
-    color: #F1C40F;
+    color: #f1c40f;
 }
 
 .hero h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 800;
     color: white;
 }
 
 .hero p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: white;
@@ -34,7 +34,7 @@
 /* button */
 
 .btn-primary {
-    background: #F1C40F;
+    background: #f1c40f;
     border: 0;
     padding: 10px 30px 10px 30px;
     font-size: 16px;
@@ -50,17 +50,17 @@
 /* content portfolio */
 
 .portfolio {
-    background: rgb(56, 56, 56);
+    background: #201F1F;
 }
 
 .container .port {
     display: flex;
     justify-content: center;
-    padding: 60px;
+    padding-bottom: 40px;
 }
 
 .container .port h4 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 800;
     color: white;
 }
@@ -74,7 +74,7 @@
 }
 
 .interest h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 800;
     color: white;
 }
@@ -90,6 +90,99 @@
 /* yt */
 
 .yt {
-    background: rgb(56, 56, 56);
-    height: 300px;
+    background: #262626;
+}
+
+.yt h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.yt p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+/* why hire me */
+.whyhireme {
+    background: #201F1F;
+}
+
+.whyhireme h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.whyhireme .col-lg-4 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+    text-align: center;
+    color: white;
+}
+
+.whyhireme img {
+    padding-bottom: 30px;
+    margin-left: 95px;
+}
+
+/* toolskills */
+.tools {
+    background: #262626;
+}
+
+.tools .col-md-2 {
+    margin: 5px;
+}
+
+.tools h4 {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.tools .icon {
+    align-items: center;
+}
+
+/* Get in touch */
+.getintouch {
+    background: #201F1F;
+}
+
+.getintouch h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.getintouch p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.getintouch a {
+    color: #f1c40f;
+}
+
+/* footer */
+.footer {
+    background: #161616;
+}
+
+.footer p {
+    font-family: "Poppins", sans-serif;
+    font-style: 300;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
 }
