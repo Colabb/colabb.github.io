@@ -107,11 +107,19 @@
 }
 
 /* why hire me */
+
 .whyhireme {
     background: #201F1F;
 }
 
 .whyhireme h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.whyhireme h5 {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     text-align: center;
@@ -133,6 +141,7 @@
 }
 
 /* toolskills */
+
 .tools {
     background: #262626;
 }
@@ -154,6 +163,7 @@
 }
 
 /* Get in touch */
+
 .getintouch {
     background: #201F1F;
 }
@@ -175,6 +185,7 @@
 }
 
 /* footer */
+
 .footer {
     background: #161616;
 }
