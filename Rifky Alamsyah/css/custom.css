@@ -95,6 +95,27 @@
     font-weight: bold;
 }
 
+/* interested */
+
+.interested {
+    background: #201F1F;
+}
+
+.interested .container .row {
+    background: #323232;
+    /* width: 980px;
+    height: 140px; */
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.interest h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+
 /* yt */
 
 .yt {

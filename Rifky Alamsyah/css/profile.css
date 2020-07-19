@@ -5,16 +5,34 @@
 }
 
 /* Navbar */
+
 .navbar {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     background: #161616;
 }
 
-/* hero */
+/* jumbotron */
+.jumbotron {
+    background-image: url(/img/image4.png);
+    background-size: cover;
+    margin-top: 80px;
+    height: 480px;
+
+}
+
+.jumbotron .display-4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-top: 280px;
+}
 
 /* about me */
+
 .aboutme {
+    margin-top: -32px;
     background: #201F1F;
 }
 
@@ -30,6 +48,7 @@
 }
 
 /* education */
+
 .education {
     background: #262626;
 }
@@ -41,6 +60,7 @@
 }
 
 /* list */
+
 .textlist {
     background: #323232;
     border-radius: 20px;
@@ -64,6 +84,7 @@
 }
 
 /* work experience */
+
 .work {
     background: #201F1F;
 }
@@ -75,6 +96,7 @@
 }
 
 /* tool&skill */
+
 .tools {
     background: #262626;
 }
@@ -94,6 +116,7 @@
 }
 
 /* why hire me */
+
 .whyhireme {
     background: #201F1F;
 }
@@ -126,14 +149,15 @@
 }
 
 /* interested */
+
 .interested {
     background: #201F1F;
 }
 
-.container .interest {
+.interested .container .row {
     background: #323232;
-    width: 980px;
-    height: 140px;
+    /* width: 980px;
+    height: 140px; */
     border-radius: 12px;
     justify-content: center;
 }
@@ -145,13 +169,14 @@
 }
 
 /* btn */
-.btn-outline-warning {
+
+.interested .btn-outline-warning {
     padding: 10px 30px 10px 30px;
     font-size: 16px;
     font-weight: bold;
 }
 
-.btn-primary {
+.interested .btn-primary {
     background: #f1c40f;
     border: 0;
     padding: 10px 30px 10px 30px;
@@ -160,7 +185,10 @@
     color: black;
 }
 
+
+
 /* get in touch */
+
 .getintouch {
     background: #262626;
 }
@@ -182,6 +210,7 @@
 }
 
 /* footer */
+
 .footer {
     background: #161616;
 }
@@ -193,3 +222,41 @@
     font-size: 12px;
     margin-top: 20px;
 }
+
+/* Responsive breakpoints */
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+
+    /* jumbotron */
+    .jumbotron .display-4 {
+        font-size: 38px;
+    }
+
+
+    /* interested */
+    .container .interest {
+        display: flex;
+        flex-wrap: wrap;
+        background: #323232;
+        /* width: 980px;
+        height: 140px; */
+        border-radius: 12px;
+    }
+
+    .interested .interest h3 {
+        font-size: 24px;
+    }
+
+    .interest .btn-outline-warning {
+
+        padding: 4px;
+    }
+
+    .interest .btn-primary {
+        padding: 4px;
+    }
+}
+
+@media (min-width: 576px) {}
